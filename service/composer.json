@@ -1,0 +1,9 @@
+{
+  "name": "gitlab-line",
+  "description": "Des",
+  "license": "MIT",
+  "require": {
+    "pitchanon/line": "dev-master",
+    "pitchanon/gitlab-notify": "dev-master"
+  }
+}
