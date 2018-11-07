@@ -1,14 +1,15 @@
 # Gitlab notifications with Line
 
-## Run the image
+## Install package with Composer
 
-- Gitlab
-- Webhooks
+```sh
+$ cd service/
 
-```bash
-$ docker-compose up -d
+
+service/
+|-composer.json
+|-index.php
 ```
-Composer
 
 ```sh
 $ composer install
@@ -17,6 +18,15 @@ OR
 
 $ composer require pitchanon/line
 $ composer require pitchanon/gitlab-notify
+```
+
+## Run the image
+
+- Gitlab
+- Webhooks
+
+```bash
+$ docker-compose up -d
 ```
 
 ## PHP
