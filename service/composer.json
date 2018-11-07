@@ -1,6 +1,6 @@
 {
-  "name": "gitlab-line",
-  "description": "Des",
+  "name": "pitchanon/gitlab-notify-line",
+  "description": "Gitlab notifications with Line.",
   "license": "MIT",
   "require": {
     "pitchanon/line": "dev-master",
