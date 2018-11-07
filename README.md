@@ -23,7 +23,7 @@ $ composer require pitchanon/gitlab-notify
 ## Run the image
 
 - Gitlab
-- Webhooks
+- PHP
 
 ```bash
 $ docker-compose up -d
